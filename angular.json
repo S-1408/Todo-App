@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "todo-app"
+  "defaultProject": "todo-app",
+  "cli": {
+    "analytics": "3a5ad7f4-1728-433d-883b-09474325323a"
+  }
 }
