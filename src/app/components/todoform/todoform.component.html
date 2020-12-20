@@ -1,1 +1,9 @@
-<p>todoform works!</p>
+<div class="input-group mb-3 w-100">
+    <input type="text" class="form-control"  
+    placeholder="Add new Task"
+    [(ngModel)]="todoTitle"
+     name="todo">
+    <div class="input-group-append">
+        <button class="btn btn-primary" (click)="handleAdd()"> Add</button>
+    </div>
+</div>
